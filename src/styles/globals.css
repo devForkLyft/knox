@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-mona-sans: "Mona Sans", sans-serif;
+  --font-bebas-neue: "Bebas Neue", cursive;
+  --font-mona-semicondensed: "Mona Sans SemiCondensed", sans-serif;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Mona Sans SemiCondensed Regular */
+@font-face {
+  font-family: "Mona Sans SemiCondensed";
+  src: url("/fonts/MonaSans-SemiCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Mona Sans SemiCondensed Medium */
+@font-face {
+  font-family: "Mona Sans SemiCondensed";
+  src: url("/fonts/MonaSans-SemiCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Mona Sans SemiCondensed Italic */
+@font-face {
+  font-family: "Mona Sans SemiCondensed";
+  src: url("/fonts/MonaSans-SemiCondensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.bebas {
+  font-family: var(--font-bebas-neue) !important;
+}
+.mono {
+  font-family: var(--font-mona-sans) !important;
+}
+.mona-semicondensed {
+  font-family: var(--font-mona-semicondensed) !important;
+}
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.6s forwards;
+}

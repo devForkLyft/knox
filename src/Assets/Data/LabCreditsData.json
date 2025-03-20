@@ -1,0 +1,101 @@
+{
+    "regularSessionPacks": {
+      "location": "Gurugram studio only",
+      "packs": [
+        {
+          "name": "Five Sessions - One Time",
+          "price": "4,499+",
+          "validity": "30 Days",
+          "features": [
+            "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+          ],
+          "isLimitedOffer": true,
+          "isMostPopular": false,
+          "buttons": [
+            "GET SESSION",
+            "BUY CREDIT PACK"
+          ]
+        },
+        {
+          "name": "Unlimited 1 Month",
+          "price": "9,999+",
+          "validity": "31 Days",
+          "features": [
+            "Unlimited classes for 30 days from the day of your first visit"
+          ],
+          "isLimitedOffer": false,
+          "isMostPopular": true,
+          "buttons": [
+            "GET SESSION",
+            "BUY CREDIT PACK"
+          ]
+        },
+        {
+          "name": "Unlimited 3 Months",
+          "price": "24,999+",
+          "validity": "90 Days",
+          "features": [
+            "Unlimited classes for 90 days from the day of your first visit"
+          ],
+          "isLimitedOffer": false,
+          "isMostPopular": false,
+          "buttons": [
+            "GET SESSION",
+            "BUY CREDIT PACK"
+          ]
+        },
+        {
+          "name": "Unlimited 6 Months",
+          "price": "39,999+",
+          "validity": "180 Days",
+          "features": [
+            "Unlimited classes for 180 days from the day of your first visit"
+          ],
+          "isLimitedOffer": false,
+          "isMostPopular": false,
+          "buttons": [
+            "GET SESSION",
+            "BUY CREDIT PACK"
+          ]
+        }
+      ]
+    },
+    "firstTimePacks": {
+      "location": "Gurugram studio only",
+      "packs": [
+        {
+          "name": "First Time Offer",
+          "price": "100",
+          "validity": "30 Days",
+          "features": [
+            "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+          ],
+          "isLimitedOffer": true,
+          "isMostPopular": false,
+          "buttons": [
+            "GET SESSION",
+            "BUY CREDIT PACK"
+          ]
+        }
+      ]
+    },
+    "festivePacks": {
+      "location": "All Locations",
+      "packs": [
+        {
+          "name": "Festive Offer",
+          "price": "100",
+          "validity": "30 Days",
+          "features": [
+            "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+          ],
+          "isLimitedOffer": true,
+          "isMostPopular": false,
+          "buttons": [
+            "GET SESSION",
+            "BUY CREDIT PACK"
+          ]
+        }
+      ]
+    }
+} 

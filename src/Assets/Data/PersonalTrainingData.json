@@ -1,0 +1,152 @@
+{
+    "soloMembershipPacks": {
+        "location": "Gurugram studio only",
+        "packs": [
+            {
+                "name": "Solo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK" 
+                ]
+            },
+            {
+                "name": "Solo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Solo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Solo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Solo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            }
+        ]
+    },
+    "duoMembershipPacks": {
+        "location": "Gurugram studio only",
+        "packs": [
+            {
+                "name": "Duo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Duo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Duo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Duo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "Duo Membership",
+                "price": "100",
+                "validity": "30 Days",
+                "features": [
+                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                ],
+                "isLimitedOffer": true,
+                "isMostPopular": false,
+                "buttons": [
+                    "GET SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            }
+        ]
+    }
+}
