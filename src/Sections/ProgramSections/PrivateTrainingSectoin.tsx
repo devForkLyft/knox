@@ -45,7 +45,7 @@ function PrivateTrainingSectoin() {
           {/* Top Section */}
           <div className="p-6">
             {/* Bespoke Classes Tag */}
-            <span className="text-xs text-white px-3 py-1 border border-white/30 rounded-full">
+            <span className="text-xs text-white px-3 py-1 border border-white/30 rounded-full bebas">
               • BESPOKE CLASSES
             </span>
 
@@ -72,7 +72,7 @@ function PrivateTrainingSectoin() {
               
               {/* Stats */}
               <div className="text-center">
-                <div className="text-4xl font-bold text-white">12</div>
+                <div className="text-4xl text-white mono">12</div>
                 <div className="text-sm text-gray-400">Instructors</div>
               </div>
             </div>
@@ -111,7 +111,7 @@ function PrivateTrainingSectoin() {
           <div className="flex flex-col h-full">
             {/* Top Button */}
             <div className="flex justify-start mb-8">
-              <button className="px-4 py-1.5 border border-black/30 rounded-full text-xs">
+              <button className="px-4 py-1.5 border border-black/30 rounded-full text-xs bebas">
                 • ELITE TRAINERS
               </button>
             </div>
@@ -119,14 +119,14 @@ function PrivateTrainingSectoin() {
             {/* Text Content - Pushed to Bottom */}
             <div className="flex items-end flex-1">
               <div className="max-w-3xl">
-                <p className="text-4xl font-medium leading-relaxed">
+                <p className="text-4xl leading-relaxed mono">
                   Gone are the days of one hour a week, 1:1 with a trainer. Build the foundations of a healthy way of life with a monthly program rooted in science and brought to life by experts.
                 </p>
                 <div className="flex flex-row gap-4 mt-20 lg:mt-20 sm:mt-0">
-                  <button className="px-6 py-3 bg-black text-white rounded-full text-xs sm:text-sm hover:bg-gray-800 transition">
+                  <button className="px-6 py-3 bg-black text-white rounded-full text-xs sm:text-sm hover:bg-gray-800 transition bebas">
                     BECOME A MEMBER
                   </button>
-                  <button className="px-6 py-2 bg-gray-200 text-black rounded-full text-xs sm:text-sm">
+                  <button className="px-6 py-2 bg-gray-200 text-black rounded-full text-xs sm:text-sm bebas">
                     VIEW ALL TRAINERS
                   </button>
                 </div>

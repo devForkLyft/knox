@@ -22,11 +22,11 @@ const amenitiesData = [
 
 const CarosuelTab4 = () => {
   return (
-    <div className="bg-[#222221] text-white w-full p-8 rounded-2xl h-[600px] flex flex-col">
+    <div className="bg-[#222221] text-white w-full p-8 md:p-10 rounded-2xl md:h-[600px] min-h-[400px] flex flex-col">
       <h1 className="text-4xl font-bold mb-8">Amenities</h1>
 
       {/* Two-Column Grid */}
-      <div className="grid grid-cols-2 gap-36 mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-36 mt-4">
         {amenitiesData.map((item, index) => (
           <div key={index} className="flex flex-col gap-6">
             <div className="relative h-[300px] w-full rounded-xl overflow-hidden">

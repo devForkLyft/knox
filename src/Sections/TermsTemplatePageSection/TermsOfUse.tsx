@@ -23,7 +23,7 @@ const TermsOfUse = () => {
         <div className="pt-[200px] px-1 sm:px-6 md:px-8 lg:px-10 flex flex-col lg:flex-row justify-between items-start">
           <div className="w-full lg:w-1/3">
             <h1
-              className="text-3xl sm:text-4xl md:text-5xl font-bold text-black"
+              className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mono"
               style={{
                 fontFamily: "Mona Sans",
                 fontWeight: 400,

@@ -200,7 +200,7 @@ const HealthGift = () => {
     <div className="bg-white px-5 pb-16">
       <div className="pt-20">
         <div
-          className="flex items-center text-black text-sm md:text-base font-normal bg-[#b1e312] rounded-2xl p-1.5 mx-2 md:mx-4"
+          className="flex items-center text-black text-sm md:text-base font-normal bg-[#b1e312] rounded-2xl p-1.5 mx-2 md:mx-4 bebas"
           dangerouslySetInnerHTML={{
             __html: `<marquee behavior="scroll" direction="left">* TRIAL OFFERS * NEW YEAR NEW YOU *</marquee>`,
           }}
@@ -237,7 +237,7 @@ const HealthGift = () => {
             animate={scrollDirection === "down" ? "visible" : "hidden"}
             className="flex flex-col items-center"
           >
-            <h1 className="w-full text-center text-[#1B1B1B] text-lg md:text-3xl lg:text-5xl font-normal leading-tight">
+            <h1 className="w-full text-center text-[#1B1B1B] text-lg md:text-3xl lg:text-5xl font-normal leading-tight mono">
               Gift of Health to your Friends and Family
             </h1>
             <div className="mt-3 md:mt-5 hidden md:flex">
@@ -302,7 +302,7 @@ const HealthGift = () => {
               />
             )}
           </div>
-          <h1 className="w-[300px] xl:w-[440px] text-[#292929] text-[28px] md:text-[46px] font-normal leading-tight mt-6">
+          <h1 className="w-[300px] xl:w-[440px] text-[#292929] text-[28px] md:text-[46px] font-normal leading-tight mt-6 mono">
             Download our App for easy access.
           </h1>
         </div>
@@ -315,7 +315,7 @@ const HealthGift = () => {
               className="w-10 md:w-[70px] h-14 md:h-14"
             />
           </div>
-          <h1 className="w-[300px] xl:w-[440px] text-[#292929] text-[28px] md:text-[46px] font-normal leading-tight mt-6">
+          <h1 className="w-[300px] xl:w-[440px] text-[#292929] text-[28px] md:text-[46px] font-normal leading-tight mt-6 mono">
             Buy credits for your Membership Plan
           </h1>
         </div>
@@ -328,7 +328,7 @@ const HealthGift = () => {
               className="w-10 md:w-[70px] h-14 md:h-14"
             />
           </div>
-          <h1 className="w-[300px] xl:w-[440px] text-[#292929] text-[28px] md:text-[46px] font-normal leading-tight mt-6">
+          <h1 className="w-[300px] xl:w-[440px] text-[#292929] text-[28px] md:text-[46px] font-normal leading-tight mt-6 mono">
             View The Lab programs schedule
           </h1>
         </div>

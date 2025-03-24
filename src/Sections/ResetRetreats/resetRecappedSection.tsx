@@ -22,7 +22,7 @@ export default function ScrollingCarousel() {
           <HeadingButton text="Reset Recapped" />
         </div>
         <div className="w-full lg:w-8/10">
-          <h2 className="text-3xl font-bold text-[#292929] text-left">
+          <h2 className="text-3xl text-[#292929] text-left mono">
             From the majestic peaks of the Himalayas to the royal grandeur of
             Rajasthan, our wellness journeys have created transformative
             experiences in India's most extraordinary settings. Take a look back

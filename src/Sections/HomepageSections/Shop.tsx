@@ -167,7 +167,7 @@ const Shop = () => {
   return (
     <div className="bg-[linear-gradient(to_top,_#FAFAFA_80%,_#1B1B1B_95%)] px-4 sm:px-8 pb-20 md:pb-40 pt-20">
       <div className="flex flex-col items-center pt-20 sm:pt-36">
-        <div className="flex items-center w-auto sm:w-[260px] justify-center gap-2.5 border border-gray-600 rounded-3xl px-6 sm:px-10 py-2.5">
+        <div className="flex items-center w-auto sm:w-[260px] justify-center gap-2.5 border border-gray-600 rounded-3xl px-6 sm:px-10 py-2.5 bebas">
           <FiberManualRecordIcon
             sx={{ width: 10, height: 10 }}
             className="text-black"
@@ -176,7 +176,7 @@ const Shop = () => {
             KNOX SHOP
           </h1>
         </div>
-        <h1 className="w-full max-w-[819px] text-[#292929] text-3xl sm:text-5xl md:text-center font-normal mt-4 sm:mt-6 leading-snug">
+        <h1 className="w-full max-w-[819px] text-[#292929] text-3xl sm:text-5xl md:text-center font-normal mt-4 sm:mt-6 leading-snug mono">
           Exclusive releases. Shop our merch before it sells out!
         </h1>
       </div>
@@ -217,7 +217,7 @@ const Shop = () => {
               <div className="md:flex flex-col justify-end h-[380px] hidden">
                 <div className="flex justify-between items-center">
                   <div className="flex flex-col gap-2">
-                    <p className="w-20 text-[#292929] text-sm sm:text-base font-medium border-b-2">
+                    <p className="w-20 text-[#292929] text-sm sm:text-base font-medium border-b-2 bebas">
                       SHOP ALL
                     </p>
                     <p className="text-[#292929] text-2xl font-medium leading-8">
@@ -258,7 +258,7 @@ const Shop = () => {
             )}
             <div className="flex justify-around items-baseline gap-20 mt-3">
               <div>
-                <p className="text-[#292929] text-sm sm:text-base font-medium">
+                <p className="text-[#292929] text-sm sm:text-base font-medium figtree">
                   {product.name}
                 </p>
                 {index === 0 && (

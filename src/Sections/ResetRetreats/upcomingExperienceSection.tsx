@@ -41,7 +41,7 @@ const RetreatSection = ({
         </div>
 
         <div className="w-full lg:w-[40%] text-center lg:text-left flex flex-col items-center lg:items-start">
-          <h2 className="hidden font-mono sm:block text-[28px] sm:text-[34px] md:text-[38px] lg:text-[42px] font-medium leading-[1.2] text-[#292929]">
+          <h2 className="hidden mono sm:block text-[28px] sm:text-[34px] md:text-[38px] lg:text-[42px] leading-[1.2] text-[#292929]">
             {title}
           </h2>
 
@@ -50,10 +50,10 @@ const RetreatSection = ({
           </p>
 
           <div className="flex flex-row gap-4 mt-20 lg:mt-20 sm:mt-0">
-            <button className="px-6 py-2 bg-black text-white rounded-full text-xs sm:text-sm hover:bg-gray-800 transition">
+            <button className="px-6 py-2 bg-black text-white rounded-full text-xs sm:text-sm hover:bg-gray-800 transition bebas">
               {itineraryText}
             </button>
-            <button className="px-6 py-2 bg-gray-200 text-black rounded-full text-xs sm:text-sm">
+            <button className="px-6 py-2 bg-gray-200 text-black rounded-full text-xs sm:text-sm bebas">
               {bookText}
             </button>
           </div>

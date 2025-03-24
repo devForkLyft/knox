@@ -19,7 +19,7 @@ const Header = ({ isActive }: { isActive: boolean }) => {
   };
 
   const menuItems = [
-    { name: "PROGRAMS", href: "/programmes" },
+    { name: "PROGRAMS", href: "/programs" },
     { name: "TRAINERS", href: "/trainers" },
     { name: "PRICING", href: "/pricing-plans" },
     { name: "NEW TO KNOX", href: "/new-to-knox" },
@@ -42,7 +42,7 @@ const Header = ({ isActive }: { isActive: boolean }) => {
           <li key={index}>
             <Link 
               href={item.href} 
-              className={`${isActive ? "text-black" : "text-white"} hover:opacity-80`}
+              className={`${isActive ? "text-black" : "text-white bebas"} hover:opacity-80 bebas`}
             >
               {item.name}
             </Link>
@@ -62,7 +62,7 @@ const Header = ({ isActive }: { isActive: boolean }) => {
             display: { xs: "none", md: "none", lg: "block" },
           }}
         >
-          SCHEDULE/BOOK CLASSES
+          <span className="bebas">SCHEDULE/BOOK CLASSES</span>
         </Button>
         <Avatar
           alt="Remy Sharp"

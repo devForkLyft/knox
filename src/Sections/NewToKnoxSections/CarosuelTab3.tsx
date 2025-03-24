@@ -42,7 +42,7 @@ const CarosuelTab3 = () => {
   const [selectedIndex, setSelectedIndex] = useState(0); // First card is selected by default
 
   return (
-    <div className="bg-[#222221] text-white w-full p-10 rounded-2xl h-[600px] flex flex-col">
+    <div className="bg-[#222221] text-white w-full p-8 md:p-10 rounded-2xl md:h-[600px] min-h-[400px] flex flex-col">
       {/* Title */}
       <h1 className="text-3xl font-semibold mb-6">Club Rules</h1>
 
@@ -82,7 +82,6 @@ const CarosuelTab3 = () => {
           </div>
         ))}
       </div>
-
     </div>
   );
 };

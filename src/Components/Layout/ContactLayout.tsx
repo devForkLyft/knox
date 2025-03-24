@@ -15,7 +15,7 @@ const ContactLayout = ({  mainText, subText, description, locations, layoutBgCol
     <div className="h-full" style={{backgroundColor: layoutBgColor}}>
      <div className="md:flex md:flex-row flex-col justify-around gap-10 px-5">
         <div className="w-auto md:w-[300px] flex flex-col gap-5 text-base font-normal leading-6" style={{color: layoutTextColor}}>
-          <p className="text-2xl font-bold">{mainText}</p>
+          <p className="text-2xl mono">{mainText}</p>
           <p className="text-base font-normal leading-6" style={{color: layoutTextColor}}>{subText? subText : ""}</p>
           <p className="text-base font-normal leading-6" style={{color: layoutTextColor}}>{description? description : ""}</p>
          {locations && <div className="w-auto md:w-[200px] flex flex-col gap-2.5 pt-5 leading-6">

@@ -77,11 +77,11 @@ function LabSection() {
           {/* Stats */}
           <div className="hidden md:flex absolute bottom-8 right-28 gap-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-white">03</div>
+              <div className="text-4xl text-white mono">03</div>
               <div className="text-sm text-gray-400">Class Formats</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-white">15</div>
+              <div className="text-4xl text-white mono">15</div>
               <div className="text-sm text-gray-400">Instructors</div>
             </div>
           </div>
@@ -99,21 +99,21 @@ function LabSection() {
         <div className="flex items-start justify-evenly mx-auto">
           <div className="flex gap-10 md:gap-60 flex-1">
             {/* Serial Number */}
-            <div className="text-[40px] md:text-[80px] font-light text-black/90">
+            <div className="text-[40px] md:text-[80px] font-light text-black/90 mono">
               {String(programData[currentIndex].id).padStart(2, '0')}
             </div>
 
             {/* Title and Description Column */}
             <div className="flex-1">
               <div className="space-y-4">
-                <h2 className="text-2xl md:text-4xl font-medium text-black/90">
+                <h2 className="text-2xl md:text-4xl font-medium text-black/90 mono">
                   {programData[currentIndex].title}:
                 </h2>
-                <p className="text-lg md:text-2xl font-medium text-black/90 leading-relaxed w-full md:w-[50%] font-sans">
+                <p className="text-lg md:text-2xl font-medium text-black/90 leading-relaxed w-full md:w-[50%] mono">
                   {programData[currentIndex].description}
                 </p>
                 <div className="-ml-[calc(1rem+80px)] md:ml-0 w-[calc(100%+1rem+90px)] md:w-auto">
-                  <button className="w-full md:w-auto mt-4 px-6 py-2 bg-black text-white rounded-3xl text-xs sm:text-sm hover:bg-gray-800 transition">
+                  <button className="w-full md:w-auto mt-4 px-6 py-2 bg-black text-white rounded-3xl text-xs sm:text-sm hover:bg-gray-800 transition bebas">
                     VIEW SCHEDULE
                   </button>
                 </div>

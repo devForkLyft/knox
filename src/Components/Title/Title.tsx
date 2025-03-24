@@ -10,7 +10,7 @@ const Title: React.FC<TitleProps> = ({ title,iconSrc }) => {
         src={iconSrc}
         sx={{ width: 8, height: 8,backgroundColor:"white" }}
       />
-      <h1 className="text-base font-normal text-[#FAFAFA]">{title}</h1>
+      <h1 className="text-base font-normal text-[#FAFAFA] bebas">{title}</h1>
     </div>
   );
 };

@@ -12,7 +12,7 @@
           "isLimitedOffer": true,
           "isMostPopular": false,
           "buttons": [
-            "GET SESSION",
+            "GIFT SESSION",
             "BUY CREDIT PACK"
           ]
         },
@@ -26,7 +26,7 @@
           "isLimitedOffer": false,
           "isMostPopular": true,
           "buttons": [
-            "GET SESSION",
+            "GIFT SESSION",
             "BUY CREDIT PACK"
           ]
         },
@@ -40,7 +40,7 @@
           "isLimitedOffer": false,
           "isMostPopular": false,
           "buttons": [
-            "GET SESSION",
+            "GIFT SESSION",
             "BUY CREDIT PACK"
           ]
         },
@@ -54,7 +54,7 @@
           "isLimitedOffer": false,
           "isMostPopular": false,
           "buttons": [
-            "GET SESSION",
+            "GIFT SESSION",
             "BUY CREDIT PACK"
           ]
         }
@@ -73,7 +73,7 @@
           "isLimitedOffer": true,
           "isMostPopular": false,
           "buttons": [
-            "GET SESSION",
+            "GIFT SESSION",
             "BUY CREDIT PACK"
           ]
         }
@@ -92,7 +92,7 @@
           "isLimitedOffer": true,
           "isMostPopular": false,
           "buttons": [
-            "GET SESSION",
+            "GIFT SESSION",
             "BUY CREDIT PACK"
           ]
         }

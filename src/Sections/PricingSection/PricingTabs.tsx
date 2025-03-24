@@ -21,7 +21,7 @@ const PricingTabs = () => {
       <div className="mt-7 flex space-x-1 rounded-full bg-[#D9D9D9] p-1">
         <button
           onClick={() => setActiveTab("lab")}
-          className={`px-6 py-1 text-sm rounded-full transition-all ${
+          className={`px-6 py-1 text-sm rounded-full transition-all mono ${
             activeTab === "lab" 
               ? "bg-white text-black shadow-sm" 
               : "text-[#292929B2]"
@@ -31,7 +31,7 @@ const PricingTabs = () => {
         </button>
         <button
           onClick={() => setActiveTab("training")}
-          className={`px-6 py-1 text-sm rounded-full transition-all ${
+          className={`px-6 py-1 text-sm rounded-full transition-all mono ${
             activeTab === "training" 
               ? "bg-white text-black shadow-sm" 
               : "text-[#292929B2]"

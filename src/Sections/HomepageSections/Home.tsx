@@ -117,7 +117,7 @@ const Home = () => {
             </div>
 
             <div className="flex sm:flex-row justify-between items-center md:items-start gap-4 md:gap-8">
-              <p className="w-[200px] sm:w-[200px] md:w-[300px] lg:w-[200px] text-[16px] sm:text-[16px] md:text-base leading-5 text-white font-sans md:text-left mt-4">
+              <p className="w-[200px] sm:w-[200px] md:w-[300px] lg:w-[200px] text-[16px] sm:text-[16px] md:text-base leading-5 text-white md:text-left mt-4">
                 Unparalleled personal and group training that redefines fitness
                 standards across New Delhi and Gurugram.
               </p>
@@ -135,7 +135,7 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col lg:items-start gap-[34px]">
-            <h1 className="w-[678px] text-[46px] text-white font-normal font-sans hidden lg:block">
+            <h1 className="w-[678px] text-[46px] text-white font-normal mono hidden lg:block">
               Train Different, Move Better,
               <br />
               Live Longer

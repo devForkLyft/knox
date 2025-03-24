@@ -37,7 +37,7 @@ const Edge = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pt-5">
         {/* First box */}
         <div>
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-normal leading-snug font-sans max-w-xl">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-normal leading-snug mono max-w-xl">
             At Knox, our edge isn't just what we do, but how we do it.
           </h1>
           <div className="flex flex-col sm:flex-row items-start gap-6 pt-5">
@@ -55,16 +55,16 @@ const Edge = () => {
           {accordionData.map((item, index) => (
             <Accordion key={index} defaultExpanded={index === 0} sx={{ backgroundColor: "#222221", borderRadius: "10px", marginTop: "20px", padding: "15px 20px" }}>
               <AccordionSummary expandIcon={<ExpandMoreIcon className="text-white" />} aria-controls={`panel${index + 1}-content`} id={`panel${index + 1}-header`}>
-                <Typography component="span" sx={{ color: "#FAFAFA", fontSize: { xs: "18px", md: "26px" }, fontWeight: "500" }}>
+                <Typography className="mono font-medium" component="span" sx={{ color: "#FAFAFA", fontSize: { xs: "18px", md: "26px" }, fontWeight: "500" }}>
                   {item.title}
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography sx={{ color: "#FAFAFA", fontSize: "16px", fontWeight: "400", paddingBottom: "10px" }}>
+                <Typography className="mona-semicondensed" sx={{ color: "#FAFAFA", fontSize: "16px", fontWeight: "400", paddingBottom: "10px" }}>
                   {item.content}
                 </Typography>
                 {index === 0 && (
-                  <Link href="/" passHref className="text-base font-normal text-[#FAFAFA] underline">
+                  <Link href="/" passHref className="text-base font-normal text-[#FAFAFA] bebas underline">
                     SPEAK TO OUR TRAINERS
                   </Link>
                 )}
@@ -74,7 +74,7 @@ const Edge = () => {
         </div>
       </div>
 
-      <h1 className="text-2xl sm:text-3xl lg:text-4xl text-[#FAFAFA] font-normal leading-snug mt-40 md:max-w-4xl">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl text-[#FAFAFA] mono font-normal leading-snug mt-40 md:max-w-4xl">
         No Knox experience is the same. We’re here to help you find your custom plan, get matched, and speak with our elite trainers to take a trial class.
       </h1>
       <div className="pt-12">

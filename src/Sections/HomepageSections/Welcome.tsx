@@ -35,7 +35,7 @@ const Welcome = () => {
 
       <div className="flex flex-col lg:flex-row justify-between items-center lg:items-baseline pt-6 gap-6">
         <div className="max-w-[987px] text-[#FAFAFA]">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-normal font-sans leading-snug">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-normal mono leading-snug">
             At Knox, we transcend traditional fitness. Our science-driven
             methodologies and anatomy-focused programs ensure sustainable
             results, promoting longevity and holistic well-being.
@@ -43,9 +43,9 @@ const Welcome = () => {
         </div>
 
         <div className="text-center lg:text-left hidden md:hidden lg:block">
-          <h2 className="w-[230px] text-[#FAFAFA] text-lg md:text-2xl leading-6 md:leading-8 font-sans font-normal">
+          <h2 className="w-[230px] text-[#FAFAFA] text-lg md:text-2xl leading-6 md:leading-8 font-normal">
             Start your journey towards a better you
-            <strong>
+            <strong className="block font-semibold">
               <i> at just INR 1499/-</i>
             </strong>
           </h2>
@@ -73,7 +73,7 @@ const Welcome = () => {
               • {service.title}
             </div> */}
             <div
-              className="absolute bottom-11 left-6 text-white text-[18px] sm:text-[22px] md:text-[26px] font-semibold 
+              className="absolute bottom-11 left-6 text-white text-[18px] sm:text-[22px] md:text-[26px] font-medium 
            -translate-y-[330px] md:-translate-y-[250px] lg:translate-y-0 transition-transform duration-500 ease-in-out"
             >
               • {service.title}

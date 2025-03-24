@@ -3,72 +3,72 @@
         "location": "Gurugram studio only",
         "packs": [
             {
-                "name": "Solo Membership",
-                "price": "100",
+                "name": "1 Session - Solo",
+                "price": "2,999",
                 "validity": "30 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 1 Private Training session with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
-                    "BUY CREDIT PACK" 
-                ]
-            },
-            {
-                "name": "Solo Membership",
-                "price": "100",
-                "validity": "30 Days",
-                "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
-                ],
-                "isLimitedOffer": true,
-                "isMostPopular": false,
-                "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Solo Membership",
-                "price": "100",
+                "name": "5 Sessions - Solo",
+                "price": "13,999",
                 "validity": "30 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 5 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
-                "isMostPopular": false,
+                "isLimitedOffer": false,
+                "isMostPopular": true,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Solo Membership",
-                "price": "100",
-                "validity": "30 Days",
+                "name": "12 Sessions - Solo",
+                "price": "31,999",
+                "validity": "60 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 12 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Solo Membership",
-                "price": "100",
-                "validity": "30 Days",
+                "name": "30 Sessions - Solo",
+                "price": "71,999",
+                "validity": "120 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 30 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
+                    "BUY CREDIT PACK"
+                ]
+            },
+            {
+                "name": "100 Sessions - Solo",
+                "price": "2,15,999",
+                "validity": "365 Days",
+                "features": [
+                    "Redeem for 100 Private Training sessions with a Select trainer."
+                ],
+                "isLimitedOffer": false,
+                "isMostPopular": false,
+                "buttons": [
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             }
@@ -78,72 +78,72 @@
         "location": "Gurugram studio only",
         "packs": [
             {
-                "name": "Duo Membership",
-                "price": "100",
+                "name": "1 Session - Duo",
+                "price": "4,699",
                 "validity": "30 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 1 Private Training session with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Duo Membership",
-                "price": "100",
+                "name": "5 Sessions - Duo",
+                "price": "22,999",
                 "validity": "30 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 5 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
-                "isMostPopular": false,
+                "isLimitedOffer": false,
+                "isMostPopular": true,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Duo Membership",
-                "price": "100",
-                "validity": "30 Days",
+                "name": "12 Sessions - Duo",
+                "price": "51,999",
+                "validity": "60 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 12 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Duo Membership",
-                "price": "100",
-                "validity": "30 Days",
+                "name": "30 Sessions - Duo",
+                "price": "1,15,999",
+                "validity": "120 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 30 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             },
             {
-                "name": "Duo Membership",
-                "price": "100",
-                "validity": "30 Days",
+                "name": "100 Sessions - Duo",
+                "price": "3,45,999",
+                "validity": "365 Days",
                 "features": [
-                    "Redeem for any five sessions of the Live Classes: Yoga, HIIT, More"
+                    "Redeem for 100 Private Training sessions with a Select trainer."
                 ],
-                "isLimitedOffer": true,
+                "isLimitedOffer": false,
                 "isMostPopular": false,
                 "buttons": [
-                    "GET SESSION",
+                    "GIFT SESSION",
                     "BUY CREDIT PACK"
                 ]
             }

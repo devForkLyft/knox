@@ -162,7 +162,7 @@ const Scoop = () => {
         <div className="lg:flex flex-col md:flex-row justify-between items-start md:items-center px-4 pt-6 hidden">
           <Title title="LATEST SCOOP" iconSrc="/Icon/dot-icon.svg" />
           <div className="text-white text-xl md:text-3xl lg:text-5xl font-normal leading-8 md:leading-10 lg:leading-[3rem] max-w-lg md:max-w-2xl">
-            <h1>
+            <h1 className="mono">
               RESET: Escape, Recharge, and Realign—where wellness meets
               transformation.
             </h1>
@@ -182,7 +182,7 @@ const Scoop = () => {
                 <ArrowRightIcon />
               </IconButton>
             </div>
-            <p className="text-sm md:text-base font-semibold leading-5">
+            <p className="text-sm md:text-base leading-5">
               Wellness beyond Studio:
             </p>
             <b className="text-sm md:text-base font-semibold leading-5">

@@ -10,14 +10,14 @@ function ComboClassesSection() {
       <div className="relative w-full h-[99vh]">
         {/* Top Navigation Text */}
         <div className="absolute top-6 left-6 z-10 flex items-center gap-2">
-          <span className="text-xs text-white px-3 py-1 border border-white/30 rounded-full">
+          <span className="text-xs text-white px-3 py-1 border border-white/30 rounded-full bebas">
             • COMBO CLASSES
           </span>
         </div>
         
         {/* Main Title */}
         <div className="absolute top-6 left-6 mt-12 z-10">
-          <h1 className="text-4xl text-white font-light">Combo Classes</h1>
+          <h1 className="text-4xl text-white font-light mono">Combo Classes</h1>
         </div>
 
         {/* Desktop Image */}
@@ -55,7 +55,7 @@ function ComboClassesSection() {
 
           {/* Bottom Button */}
           <div className="absolute bottom-8 left-6">
-            <button className="px-4 py-1.5 border border-white/30 rounded-full text-white text-xs">
+            <button className="px-4 py-1.5 border border-white/30 rounded-full text-white text-xs bebas">
               BROWSE / MEMBERS
             </button>
           </div>

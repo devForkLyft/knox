@@ -101,7 +101,7 @@ const ContactForm = ({bgColor, placeholderColor}:{bgColor:string, placeholderCol
     />
     <div className="absolute bottom-5 md:bottom-8 right-8">
       <span 
-        className="flex justify-end uppercase text-base font-normal underline"
+        className="flex justify-end uppercase text-base font-normal underline bebas"
         style={{ color: placeholderColor }}
       >
         Send Message

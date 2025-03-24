@@ -17,7 +17,7 @@ const Buttoncontained: React.FC<ButtonProps> = ({ text, variant = "contained" })
         width: "auto",
       }}
     >
-      <span className="flex items-baseline justify-center gap-1 text-base font-normal leading-5">
+      <span className="flex items-baseline justify-center gap-1 text-base bebas font-normal leading-5">
         {text}
         <Image src={loginRightArrow} alt="Arrow Icon" />
       </span>

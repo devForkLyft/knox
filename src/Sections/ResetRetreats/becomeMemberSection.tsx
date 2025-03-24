@@ -64,7 +64,7 @@ const ResetFirstSection = () => {
         </div>
 
         <div className="w-full lg:w-1/2 flex flex-col justify-end text-center lg:text-left px-4 sm:px-6 md:px-8 lg:pl-10">
-          <h2 className="hidden lg:block font-[Mona Sans] font-normal text-[24px] sm:text-[36px] md:text-[42px] xl:text-[46px] leading-[34px] sm:leading-[44px] md:leading-[50px] xl:leading-[56px] text-black">
+          <h2 className="hidden lg:block font-normal text-[24px] sm:text-[36px] md:text-[42px] mono xl:text-[46px] leading-[34px] sm:leading-[44px] md:leading-[50px] xl:leading-[56px] text-black">
             RESET is our foray into <br className="sm:hidden" /> the world of
             transformative travel.
           </h2>

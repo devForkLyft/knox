@@ -14,7 +14,7 @@ const index = () => {
       </div>
       <div className="bg-[#222221] border-dotted md:border-solid border-b-1 border-[#D9D9D9] p-5">
         <div className="">
-          <h1 className="text-[28px] md:text-[46px] text-[#FAFAFA] font-normal">
+          <h1 className="text-[28px] md:text-[46px] text-[#FAFAFA] font-normal mono">
             Reach Out:
           </h1>
         </div>

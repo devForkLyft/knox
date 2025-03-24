@@ -16,7 +16,7 @@ const Program = () => {
 
       <div className="flex flex-col items-center lg:text-left pt-6">
         <div className="max-w-2xl">
-          <h1 className="text-2xl text-[#D9D9D9] sm:text-3xl lg:text-4xl font-normal leading-tight">
+          <h1 className="text-2xl text-[#D9D9D9] sm:text-3xl lg:text-4xl font-normal mono leading-tight">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </h1>
           <div className="flex text-[#D9D9D9] sm:flex-row items-center gap-5 md:gap-4 mt-4">
